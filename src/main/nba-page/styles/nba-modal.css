@@ -1,0 +1,76 @@
+.ant-modal-content {
+    width: 830px;
+    height: 175px;
+}
+
+.modal_position {
+    top: 540px;
+    left: 1330px;
+}
+
+.nba_modal {
+    display: grid;
+    grid-template-columns: 300px 530px;
+}
+
+.nba_modal-preview {
+    display: block;
+}
+
+.preview_titel {
+    display: block;
+}
+
+.preview_name {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.nba_modal-optional {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 56px;
+}
+
+.optional_titel {
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    color: rgba(255, 255, 255, 0.43);
+
+}
+
+.optional_velue {
+    display: inline-block;
+    width: 152px;
+    height: 20px;
+}
+
+.optional_line {
+    display: block;
+    width: 220px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    margin-right: 30px;
+}
+
+
+@media screen and (min-width: 1920px) {
+    .ant-modal-content {
+        width: 550px;
+        height: 260px;
+    }
+
+    .nba_modal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nba_modal-optional {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        height: 84px;
+    }
+}

@@ -1,0 +1,30 @@
+.player_table {
+    margin-left: 20px;
+    font-family: "Roboto";
+    line-height: 50px;
+}
+
+.player_table-titel {
+    font-family: "Roboto";
+    font-size: 51px;
+    line-height: 50px;
+    display: block;
+    width: 307px;
+}
+
+.player_table-block {
+    display: block;
+    max-height: 616px;
+    width: 810px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 1920px) {
+    .player_table {
+        margin-left: 180px;
+    }
+
+    .player_table-block {
+        width: 1200px;
+    }
+}

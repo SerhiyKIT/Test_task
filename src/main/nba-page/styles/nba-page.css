@@ -1,0 +1,10 @@
+.nba_page {
+    display: grid;
+    grid-template-columns: 376px 870px;
+}
+
+@media screen and (min-width: 1920px) {
+    .nba_page {
+        grid-template-columns: 376px 1480px;
+    }
+}
